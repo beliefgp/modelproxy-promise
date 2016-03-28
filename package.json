@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Beliefgp/modelproxy-promise.git"
+    "url": "git+https://github.com/beliefgp/modelproxy-promise.git"
   },
   "author": "beliefgp",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Beliefgp/modelproxy-promise/issues"
+    "url": "https://github.com/beliefgp/modelproxy-promise/issues"
   },
-  "homepage": "https://github.com/Beliefgp/modelproxy-promise#readme",
+  "homepage": "https://github.com/beliefgp/modelproxy-promise#readme",
   "dependencies": {
     "iconv-lite": "^0.4.13",
     "mockjs": "^1.0.1-beta2",
