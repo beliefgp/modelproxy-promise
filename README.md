@@ -9,7 +9,7 @@
 
 接口配置、初始化同[modelproxy](https://github.com/carlisliu/modelproxy)。
 
-#### 调用方式
+### 调用方式
 
 ```js
 var ModelProxy = require('modelproxy'); 
