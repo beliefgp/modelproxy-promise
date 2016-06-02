@@ -15,7 +15,7 @@
 ### 调用方式
 
 ```js
-var ModelProxy = require('modelproxy'); 
+var ModelProxy = require('modelproxy-promise'); 
 var searchModel = ModelProxy.create([
 		'Search.getPlayInfo',
 		'Search.getAlbumList',
