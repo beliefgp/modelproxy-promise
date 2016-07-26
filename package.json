@@ -17,8 +17,9 @@
   },
   "homepage": "https://github.com/beliefgp/modelproxy-promise#readme",
   "dependencies": {
+    "debug": "^2.2.0",
     "iconv-lite": "^0.4.13",
     "mockjs": "^1.0.1-beta2",
-    "request": "^2.69.0"
+    "request": "^2.74.0"
   }
 }
