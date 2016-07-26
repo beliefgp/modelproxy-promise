@@ -4,6 +4,9 @@
 
 该模块基于[modelproxy](https://github.com/carlisliu/modelproxy)改写，由于项目是在node新版本，基于co(Promise+Generator) 解决回调嵌套，所以在原基础上进行了部分改写。
 
+### 安装
+
+`npm install modelproxy-promise`
 
 ### 配置、初始化
 
@@ -12,7 +15,7 @@
 ### 调用方式
 
 ```js
-var ModelProxy = require('modelproxy'); 
+var ModelProxy = require('modelproxy-promise'); 
 var searchModel = ModelProxy.create([
 		'Search.getPlayInfo',
 		'Search.getAlbumList',
