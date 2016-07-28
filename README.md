@@ -5,9 +5,11 @@
 该模块基于[modelproxy](https://github.com/carlisliu/modelproxy)改写，由于项目是在node新版本，基于co(Promise+Generator) 解决回调嵌套，所以在原基础上进行了部分改写。
 
 ### 安装
+```bash
 
-`npm install modelproxy-promise`
+npm install modelproxy-promise
 
+```
 ### 配置、初始化
 
 接口配置、初始化同[modelproxy](https://github.com/carlisliu/modelproxy)。
@@ -15,7 +17,11 @@
 ### 调用方式
 
 ```js
-var ModelProxy = require('modelproxy-promise'); 
+var ModelProxy = require('modelproxy-promise');
+
+// {status}可选，此优先级最高，设置会覆盖配置文件中的值
+ModelProxy.init('./interface.json', { status: process.env.NODE_ENV });
+
 var searchModel = ModelProxy.create([
 		'Search.getPlayInfo',
 		'Search.getAlbumList',
